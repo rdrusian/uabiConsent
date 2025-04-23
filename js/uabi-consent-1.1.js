@@ -1,7 +1,7 @@
 /** uabiConsent 1.1
 *
 * Copyright 2025, Rudi Drusian - https://rudi.drusian.com.br
-* Licensed under MIT: https://telazul.drusian.com.br/pt/artigo/licenca
+* Licensed under MIT: https://telazul.drusian.com.br/en/article/license
 *
 * Changelog:
 *
