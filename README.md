@@ -46,20 +46,20 @@ O uabiConsent disponibiliza uma caixa de diálogo para solicitar permissão ao u
 O uabiConsent oferece quatro tipos de cookies personalizáveis para atender às necessidades do site e garantir conformidade com as regulamentações de privacidade. Abaixo estão os detalhes de cada tipo:
 
 - Cookies Estritamente Necessários:
- * São essenciais para o funcionamento básico do site e não podem ser desativados.
- * Geralmente são criados em resposta a ações do usuário, como definir preferências de privacidade, fazer login ou preencher formulários.
- * Não armazenam informações pessoais identificáveis.
+   * São essenciais para o funcionamento básico do site e não podem ser desativados.
+   * Geralmente são criados em resposta a ações do usuário, como definir preferências de privacidade, fazer login ou preencher formulários.
+   * Não armazenam informações pessoais identificáveis.
 - Cookies de desempenho
- * Usados para medir e melhorar a experiência do usuário e a performance do site.
- * Responsáveis por coletar dados sobre o número de visitas, fontes de tráfego e como os visitantes interagem com o site (por exemplo, páginas mais visitadas).
- * Ferramentas como o Google Analytics se enquadram nessa categoria.
- * Todas as informações que estes cookies recolhem são agregadas e, portanto, anônimas.
+   * Usados para medir e melhorar a experiência do usuário e a performance do site.
+   * Responsáveis por coletar dados sobre o número de visitas, fontes de tráfego e como os visitantes interagem com o site (por exemplo, páginas mais visitadas).
+   * Ferramentas como o Google Analytics se enquadram nessa categoria.
+   * Todas as informações que estes cookies recolhem são agregadas e, portanto, anônimas.
 - Cookies funcionais
- * Proporcionam funcionalidades aprimoradas e personalizações no site.
- * Podem ser definidos pelo próprio site ou por terceiros.
- * Exemplos incluem a capacidade de lembrar preferências do usuário, como tema, idioma ou região.
+   * Proporcionam funcionalidades aprimoradas e personalizações no site.
+   * Podem ser definidos pelo próprio site ou por terceiros.
+   * Exemplos incluem a capacidade de lembrar preferências do usuário, como tema, idioma ou região.
 - Cookies de direcionamento
- * Usados para tornar os anúncios publicitários mais relevantes ao perfil de interesses do usuário.
- * Podem ser definidos pelo site ou por terceiros, como o Google Adsense.
- * Quando aceitos, permitem a exibição de anúncios personalizados com base nas preferências do usuário.
- * Quando recusados, os anúncios serão exibidos sem personalização.
+   * Usados para tornar os anúncios publicitários mais relevantes ao perfil de interesses do usuário.
+   * Podem ser definidos pelo site ou por terceiros, como o Google Adsense.
+   * Quando aceitos, permitem a exibição de anúncios personalizados com base nas preferências do usuário.
+   * Quando recusados, os anúncios serão exibidos sem personalização.
