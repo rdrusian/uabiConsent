@@ -1,10 +1,7 @@
-/** uabiConsent 1.1
-*
-* Copyright 2025, Rudi Drusian - https://rudi.drusian.com.br
-* Licensed under MIT: https://telazul.drusian.com.br/en/article/license
-*
-* Changelog:
-*
-* - Configured consent using signals from google analytics
-* - Added function to show cookie values ​​in browser console
-*/
+uabiConsent 1.1
+
+Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense
+
+JavaScript simples e gratuito para gerenciar cookies em conformidade com regulamentações como RGPD, LGPD. Suporte multilíngue, banner personalizável, interface responsiva, suporta consentimento explícito e implícito.
+
+Mais informações em: 
