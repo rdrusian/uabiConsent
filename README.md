@@ -1,6 +1,6 @@
 # uabiConsent 1.1
 
-Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense
+Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense.
 
 JavaScript simples e gratuito para gerenciamento de cookies em conformidade com regulamentações como RGPD, LGPD.
 
@@ -18,7 +18,7 @@ https://telazul.drusian.com.br/en/article/uabiconsent-v11-cookie-management-link
 
 https://telazul.drusian.com.br/es/articulo/uabiconsent-v11-gestion-de-cookies-integrada-con-analytics-y-adsense
 
-### Principais funcionalidades:
+## Principais funcionalidades:
 
 O uabiConsent disponibiliza uma caixa de diálogo para solicitar permissão ao usuário para armazenar cookies com diferentes finalidades. Abaixo estão suas principais funcionalidades:
 
@@ -47,7 +47,7 @@ O uabiConsent disponibiliza uma caixa de diálogo para solicitar permissão ao u
 **Personalização Visual:**
 - Permite a personalização completa da caixa de diálogo através do arquivo SASS (.scss) que acompanha o script. Isso possibilita ajustar o design para atender às necessidades visuais do site.
 
-### Tipos de Cookies
+## Tipos de Cookies
 
 O uabiConsent oferece quatro tipos de cookies personalizáveis para atender às necessidades do site e garantir conformidade com as regulamentações de privacidade. Abaixo estão os detalhes de cada tipo:
 
