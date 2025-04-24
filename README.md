@@ -1,8 +1,6 @@
 # uabiConsent 1.1
 
-Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense.
-
-JavaScript simples e gratuito para gerenciamento de cookies em conformidade com regulamentações como RGPD, LGPD.
+Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense em conformidade com regulamentações como RGPD, LGPD entre outras. Desenvolvido em JavaScript puro, a solução dispensa o uso de bibliotecas adicionais, garantindo leveza e simplicidade na implementação, ao mesmo tempo que oferece alta customização e suporte a múltiplos idiomas.
 
 A documentação deste projeto pode ser encontrada nos links:
 
