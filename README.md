@@ -60,7 +60,7 @@ O uabiConsent oferece quatro tipos de cookies personalizáveis para atender às 
 - Responsáveis por coletar dados sobre o número de visitas, fontes de tráfego e como os visitantes interagem com o site (por exemplo, páginas mais visitadas).
 - Ferramentas como o Google Analytics se enquadram nessa categoria.
 - Todas as informações que estes cookies recolhem são agregadas e, portanto, anônimas.
-**Cookies funcionais
+**Cookies funcionais**
 - Proporcionam funcionalidades aprimoradas e personalizações no site.
 - Podem ser definidos pelo próprio site ou por terceiros.
 - Exemplos incluem a capacidade de lembrar preferências do usuário, como tema, idioma ou região.
