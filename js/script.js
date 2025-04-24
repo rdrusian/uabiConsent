@@ -8,7 +8,7 @@ window.addEventListener('load', function() { });
 // #####################
 myUabiConsent = new uabiConsent({
 	name: 'uabiConsent-',
-	lang: 'pt',
+	lang: 'en',
 	initialConsent: 'denied',
 	expire: 365,
 	privacyPolicyUrl: 'https://telazul.drusian.com.br/pt/artigo/politica-de-privacidade',

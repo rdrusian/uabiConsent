@@ -1,28 +1,34 @@
 # uabiConsent 1.1
 
-### Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense
+## Ferramamenta de Gestão de Consetimento de Cookies Integrado com Google Analytics e Adsense
 
 JavaScript simples e gratuito para gerenciamento de cookies em conformidade com regulamentações como RGPD, LGPD.
 
 A documentação deste projeto pode ser encontrada nos links:
 
-### Português
+### Documentação em Português
 
-### English
+https://telazul.drusian.com.br/pt/artigo/uabiconsent-v11-gestao-de-cookies-integrado-com-analytics-e-adsense
 
-### Español
+### Documentation in English
 
+https://telazul.drusian.com.br/en/article/uabiconsent-v11-cookie-management-linked-with-analytics-and-adsense
+
+### Documentación en español
+
+https://telazul.drusian.com.br/es/articulo/uabiconsent-v11-gestion-de-cookies-integrada-con-analytics-y-adsense
 
 ### Principais funcionalidades:
 
 O uabiConsent disponibiliza uma caixa de diálogo para solicitar permissão ao usuário para armazenar cookies com diferentes finalidades. Abaixo estão suas principais funcionalidades:
 
-- Dois Tipos de Consentimento:
+**Dois Tipos de Consentimento:**
    * Consentimento Explícito: O usuário escolhe se e a quais cookies deseja consentir. Oferece controle granular sobre as preferências.
    * Consentimento Implícito: Informa ao usuário que os cookies serão armazenados automaticamente, tornando o uso do site condicional ao consentimento.
-- Política de Privacidade:
-   * Permite definir a URL da política de privacidade do site, garantindo conformidade legal e transparência.
-- Suporte Multilíngue:
+**Política de Privacidade:**
+- Permite definir a URL da política de privacidade do site, garantindo conformidade legal e transparência.
+
+**Suporte Multilíngue:**
    * Suporta três idiomas: Português, Inglês e Espanhol.
    * É possível adicionar novas linguagens, expandindo o alcance global do script.
 - Customização de Textos:
