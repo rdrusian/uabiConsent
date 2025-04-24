@@ -6,13 +6,8 @@ A documentação deste projeto pode ser encontrada nos links:
 
 [Documentação em Português](https://telazul.drusian.com.br/pt/artigo/uabiconsent-v11-gestao-de-cookies-integrado-com-analytics-e-adsense)
 
-### Documentation in English
-
-https://telazul.drusian.com.br/en/article/uabiconsent-v11-cookie-management-linked-with-analytics-and-adsense
-
-### Documentación en español
-
-https://telazul.drusian.com.br/es/articulo/uabiconsent-v11-gestion-de-cookies-integrada-con-analytics-y-adsense
+[Documentation in English](https://telazul.drusian.com.br/en/article/uabiconsent-v11-cookie-management-linked-with-analytics-and-adsense)
+[Documentación en español](https://telazul.drusian.com.br/es/articulo/uabiconsent-v11-gestion-de-cookies-integrada-con-analytics-y-adsense)
 
 ## Principais funcionalidades:
 
