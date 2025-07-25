@@ -1,4 +1,4 @@
-/** uabiConsent 1.1
+/** uabiConsent 1.1.1
 *
 * Copyright 2025, Rudi Drusian - https://rudi.drusian.com.br
 * Licensed under MIT: https://telazul.drusian.com.br/en/article/license
@@ -249,16 +249,24 @@ uabiConsent.prototype.loadAdsense = function () {
 // #################
 uabiConsent.prototype.consent = function (e) {
 	const t = this;
+
 	// Consent All
 	setCookie(t.opt.name, 'granted', t.opt.expire);
 
-	// Cookies by Type
+	// Grant Cookies by Type
+	if (t.onOffText) {
+		for (const s of t.onOffText) {
+			setCookie(t.opt.name + s.id, 'granted', t.opt.expire);
+		}
+	}
+
+	// Check the checkboxes if showSettings is active.
 	if (t.onOffItems) {
 		for (const s of t.onOffItems) {
-			setCookie(t.opt.name + s.id, 'granted', t.opt.expire);
 			s.checked = true;
 		}
 	}
+
 	// Close
 	t.closeSettings(e);
 	t.closeDialog();
@@ -317,12 +325,26 @@ uabiConsent.prototype.confirmChoices = function (e) {
 uabiConsent.prototype.decline = function (e) {
 	const t = this;
 	setCookie(t.opt.name, 'denied', t.opt.expire);
-	for (const s of t.onOffItems) {
-		if (s.id != 'strictlyNecessary') {
-			setCookie(t.opt.name + s.id, 'denied', t.opt.expire);
-			s.checked = false;
+
+	// Deny Cookies by Type
+	if (t.onOffText) {
+		for (const s of t.onOffText) {
+			if (s.id != 'strictlyNecessary') {
+				setCookie(t.opt.name + s.id, 'denied', t.opt.expire);
+			}
 		}
 	}
+
+	// Uncheck the checkboxes if showSettings is active.
+	if (t.onOffItems) {
+		for (const s of t.onOffItems) {
+			if (s.id != 'strictlyNecessary') {
+				s.checked = false;
+			}
+		}
+	}
+
+
 	t.closeDialog();
 
 	// Reload analytics with new consents signals
@@ -432,7 +454,7 @@ uabiConsent.prototype.newDialog = function (e) {
 
 	// Política de Privacidade
 	t.privacyPolicyP = document.createElement('p');
-	t.privacyPolicyP.className = 'text-center';
+	t.privacyPolicyP.className = 'uabi-learn-more';
 	t.dialogMessageContainer.appendChild(t.privacyPolicyP);
 
 	t.privacyPolicyUrl = document.createElement('a');
@@ -637,7 +659,7 @@ uabiConsent.prototype.init2 = function (e) {
 	const t = this;
 
 	// Defines the message according to whether consent is required or not
-	if (t.opt.initialConsent && !t.opt.showDecline && !t.opt.showSettings) {
+	if (t.opt.initialConsent == "granted" && !t.opt.showDecline && !t.opt.showSettings) {
 		langModifier = 'mandatory';
 	} else {
 		langModifier = 'default';

@@ -7,37 +7,27 @@
 // ################
 
 // Font
-$font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
-$font-size: 1.5rem;
+$font-stack: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-size: .875rem;
 
 // Diaog
 $container-bg: transparent;
 $dialog-bg: white;
-$dialog-border: .1rem solid #ccc;
+$dialog-border: .0625rem solid #ccc;
 $dialog-title-color: #444;
-$dialog-title-font-size: 1.6rem;
+$dialog-title-font-size: 1rem;
 $dialog-link-color: #0099cc;
 $dialog-link-hover-color: #1967d2;
 $message-color: #444;
 
 // Buttons
 $btn-font-size: $font-size;
-$btn-line-height: $font-size + .2rem;
-$btn-padding: 1rem;
+$btn-padding: .625rem;
 $btn-bg: #1967d2;
-$btn-border: .1rem solid #ccc;
+$btn-border: .0625rem solid #ccc;
 $btn-color: white;
 $btn-hover-bg: #1a53a1;
 $btn-hover-color: white;
-
-// ############
-// #  Geral   #
-// ############
-html {
-	font-size: 62.5%;
-}
-
-.text-center { text-align: center !important; }
 
 // ################
 // #  Container   #
@@ -47,10 +37,10 @@ html {
 	background: $container-bg;
 	font-family: $font-stack;
 	font-size: $font-size;
-	line-height: $font-size + .4rem;
+	line-height: 1.5;
 	bottom: 0;
 	left: 0;
-	max-width: 50rem;
+	max-width: 31.25rem;
 	max-height: 98%;
 	overflow-y: auto;
 	display: none;
@@ -84,8 +74,8 @@ html {
 	.uabi-consent-dialog {
 		background: $dialog-bg;
 		border: $dialog-border;
-		margin: 0 2rem 2rem 2rem;
-		padding: 1rem 2rem;
+		margin: 0 1.25rem 1.25rem 1.25rem;
+		padding: .625rem 1.25rem;
 	}
 
 	// #############
@@ -103,6 +93,9 @@ html {
 		.uabi-consent-message {
 			flex: 1 1 auto;
 		}
+		.uabi-learn-more {
+			text-align: center;
+		}
 	}
 
 	// ##############
@@ -113,15 +106,15 @@ html {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		gap: .5rem;
+		gap: .3125rem;
 		.uabi-consent-btn {
-			flex: 1 1 20rem;
+			flex: 1 1 12.5rem;
 			background: $btn-bg;
 			border: $btn-border;
 			color: $btn-color;
 			font-family: $font-stack;
 			font-size: $btn-font-size;
-			line-height: $btn-line-height;
+			line-height: 1.5;
 			text-align: center;
 			outline: 0;
 			padding: $btn-padding;
@@ -142,8 +135,8 @@ html {
 		position: absolute;
 		right: 0;
 		top: 0;
-		padding: 1rem 1.2rem;
-		font-size: 2rem;
+		padding: .625rem .75rem;
+		font-size: 1.25rem;
 		font-weight: bolder;
 		color: $message-color;
 		&:hover {
@@ -171,24 +164,24 @@ html {
 				.uabi-consent-accordion-item-header {
 					display: flex;
 					justify-content: space-between;
-					gap: .5rem;
-					border: .1rem solid #ccc;
-					padding: .5rem;
+					gap: .3125rem;
+					border: .0625rem solid #ccc;
+					padding: .3125rem;
 					.uabi-consent-settings-text {
-						flex: 3 1 30rem;
+						flex: 3 1 18.75rem;
 						cursor: pointer;
-						line-height: 2.4rem;
+						line-height: 1.5;
 						font-weight: bold;
 					}
 					// On/Off Switch
 					.uabi-consent-on-off {
-						flex: 1 2 10rem;
+						flex: 1 2 6.25rem;
 						text-align: right;
 						label {
 							position: relative;
 							display: inline-block;
-							width: 4.4rem;
-							height: 2.4rem;
+							width: 2.75rem;
+							height: 1.5rem;
 							input {
 								opacity: 0;
 								width: 0;
@@ -197,9 +190,9 @@ html {
 									& + span {
 										background-color: #1cac78;
 										&:before {
-											-webkit-transform: translateX(1.8rem);
-											-ms-transform: translateX(1.8rem);
-											transform: translateX(1.8rem);
+											-webkit-transform: translateX(1.125rem);
+											-ms-transform: translateX(1.125rem);
+											transform: translateX(1.125rem);
 										}
 									}
 								}
@@ -209,7 +202,7 @@ html {
 									}
 								}
 								&:focus + span {
-								  	box-shadow: 0 0 1px #2196F3;
+								  	box-shadow: 0 0 .0625rem #2196F3;
 								}
 							}
 							span {
@@ -222,14 +215,14 @@ html {
 								background-color: #ccc;
 								-webkit-transition: .4s;
 								transition: .4s;
-								border-radius: 2.4rem;
+								border-radius: 1.5rem;
 								&:before {
 									position: absolute;
 									content: "";
-									height: 1.6rem;
-									width: 1.6rem;
-									left: .4rem;
-									bottom: .4rem;
+									height: 1rem;
+									width: 1rem;
+									left: .25rem;
+									bottom: .25rem;
 									background-color: white;
 									-webkit-transition: .4s;
 									transition: .4s;
@@ -242,13 +235,13 @@ html {
 				.uabi-consent-accordion-body {
 					max-height: 0;
 					overflow: hidden;
-					margin-bottom: .5rem;
+					margin-bottom: .3125rem;
 					transition: max-height .1s ease;
 					&.active {
-						max-height: 100rem;
-						border: .1rem solid #ccc;
+						max-height: 62.5rem;
+						border: .0625rem solid #ccc;
 						border-top: 0;
-						padding: 1rem;
+						padding: .625rem;
 					}
 				}
 			}
@@ -265,8 +258,8 @@ html {
 	// ################
 	.uabi-consent-container {
 		.uabi-consent-dialog {
-			padding: .5rem;
-			margin: 0 1rem 1rem 1rem;
+			padding: .3125rem;
+			margin: 0 .625rem .625rem .625rem;
 		}
 	}
 }
