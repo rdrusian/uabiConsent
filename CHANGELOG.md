@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed font-size: 62.5%; from html element.
 - Set line-height: 1.5;.
 - Configured font-stack with the font sequence used in bootstrap
+- Changed favico to png format
 
 
 ### Fixed
